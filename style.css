@@ -1,0 +1,56 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container{
+ text-align: center;   
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 34px;
+    border: 5px solid rgb(50, 50, 56);
+    border-radius: 15px;
+    height: 60px;
+    width: 374px;
+}
+
+button{
+    font-size: 40px;
+    background-color: oldlace;
+    width: 94px;
+    height: 71px;
+    border-radius: 21px;
+}
+
+.kalc{
+    display: inline-block;
+    border: 2px solid rgb(50, 50, 56);
+    background-color: mediumspringgreen;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+hr.style-three {
+    height: 5px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 3px 0px 0px 0px;
+}
